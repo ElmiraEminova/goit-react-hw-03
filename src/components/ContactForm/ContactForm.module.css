@@ -1,0 +1,23 @@
+.form {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.error {
+  color: red;
+}
